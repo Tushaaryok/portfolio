@@ -1,0 +1,170 @@
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    flex-direction: column;
+    text-align: center;
+    padding: 25px 0;
+    gap: 20px;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .resume-btn {
+    display: none;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+}
+
+@media (max-width: 991px) {
+  .hero {
+    flex-direction: column-reverse;
+
+    text-align: center;
+
+    padding-top: 140px;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+  }
+
+  .tech-stack {
+    justify-content: center;
+  }
+
+  .hero h1 {
+    font-size: 52px;
+  }
+
+  .hero h2 {
+    font-size: 28px;
+  }
+
+  .hero-image img {
+    width: 300px;
+  }
+}
+/* About */
+
+@media (max-width: 992px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .section-heading h2 {
+    font-size: 42px;
+  }
+
+  .facts {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 576px) {
+  .about {
+    padding: 80px 6%;
+  }
+
+  .section-heading h2 {
+    font-size: 34px;
+  }
+
+  .facts {
+    grid-template-columns: 1fr;
+  }
+
+  .skills-wrapper {
+    justify-content: center;
+  }
+}
+/* Skills */
+
+@media (max-width: 992px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+}
+/* Services */
+
+@media (max-width: 768px) {
+  .service-item {
+    flex-direction: column;
+
+    gap: 20px;
+
+    padding: 30px;
+  }
+
+  .service-number {
+    font-size: 38px;
+  }
+
+  .service-content h3 {
+    font-size: 24px;
+  }
+} /* Projects */
+
+@media (max-width: 768px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-filter {
+    flex-wrap: wrap;
+  }
+}
+/* Experience */
+
+@media (max-width: 768px) {
+  .timeline {
+    padding-left: 25px;
+  }
+
+  .timeline-dot {
+    left: -35px;
+
+    width: 16px;
+
+    height: 16px;
+  }
+
+  .timeline-content {
+    padding: 25px;
+  }
+
+  .timeline-content h3 {
+    font-size: 22px;
+  }
+}
+@media (max-width: 900px) {
+  .contact-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+/* Footer */
+
+@media (max-width: 992px) {
+  .footer-top {
+    grid-template-columns: 1fr;
+
+    gap: 40px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+
+    gap: 20px;
+
+    text-align: center;
+  }
+}
