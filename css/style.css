@@ -1038,3 +1038,43 @@ img {
 section {
   padding: clamp(4rem, 8vw, 8rem) 0;
 }
+.container {
+  width: min(92%, 1400px);
+  margin-inline: auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+section {
+  padding: clamp(4rem, 8vw, 8rem) 0;
+}
+
+h1 {
+  font-size: clamp(2rem, 7vw, 5rem);
+}
+
+p {
+  font-size: clamp(1rem, 2vw, 1.15rem);
+} /* Mobile First */
+
+/* Tablet */
+@media (min-width: 768px) {
+}
+
+/* Laptop */
+@media (min-width: 1024px) {
+}
+
+/* Desktop */
+@media (min-width: 1440px) {
+}
